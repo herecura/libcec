@@ -1,0 +1,16 @@
+pkgbase = libcec
+	pkgdesc = Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://github.com/Pulse-Eight/libcec
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = udev
+	depends = lockdev
+	options = !libtool
+	source = libcec-2.0.2.tar.gz::https://github.com/Pulse-Eight/libcec/tarball/libcec-2.0.2
+	sha256sums = a61d1b550caa5a9b744df67a002f35a06486e373f79a167cedbc8583fa9c003c
+
+pkgname = libcec
+
